@@ -1,0 +1,23 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+  $(document).ready(function() {
+
+    $.ajax({
+      url: '/ToDoes/BuildToDoTable',
+      success: function (result) {
+
+      }
+
+      
+    }
+      )
+
+  }
+}
