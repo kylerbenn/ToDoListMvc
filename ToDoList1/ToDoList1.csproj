@@ -282,6 +282,7 @@
     <Content Include="Views\ToDoes\Index.cshtml" />
     <Content Include="Views\ToDoes\_ToDoTable.cshtml" />
     <Content Include="Views\Custom_Scripts\BuildTable.json" />
+    <Content Include="Views\DoneList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

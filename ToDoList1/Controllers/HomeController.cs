@@ -13,7 +13,7 @@ namespace ToDoList1.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult DoneList()
         {
             ViewBag.Message = "Your application description page.";
 
