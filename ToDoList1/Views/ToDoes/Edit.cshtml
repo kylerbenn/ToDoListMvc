@@ -1,7 +1,7 @@
 ﻿@model ToDoList1.Models.ToDo
 
 @{
-    ViewBag.Title = "Edit";
+    ViewBag.Title = "Done";
 }
 
 <h2>Edit</h2>
@@ -43,9 +43,9 @@
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+    <div>
+        @Html.ActionLink("Mark As Done", "ToDo", new { id = Model.Id })
+    </div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

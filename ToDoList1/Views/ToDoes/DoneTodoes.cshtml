@@ -6,16 +6,13 @@
 
 <h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 
 <table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Description)
         </th>
- 
+        
         <th></th>
     </tr>
 
@@ -29,8 +26,7 @@
                 @Html.DisplayFor(modelItem => item.IsDone)
             </td>
             <td>
-                @Html.ActionLink("Mark As Done ", "RemoveTodo", new { id = item.Id }) 
-                
+                @Html.ActionLink("Mark As Not Completed ", "AddTodo", new { id = item.Id })
                 @Html.ActionLink("Delete", "Delete", new { id = item.Id })
             </td>
         </tr>
@@ -40,5 +36,5 @@
 
 
 
-    
-    
+
+

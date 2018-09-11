@@ -1,7 +1,7 @@
 ﻿@model ToDoList1.Models.ToDo
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "NotDone";
 }
 
 <h2>Details</h2>
@@ -29,6 +29,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Mark As Not Completed", "ToDo", new { id = Model.Id }) |
+   
 </p>
